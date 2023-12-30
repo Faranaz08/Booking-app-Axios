@@ -40,7 +40,7 @@
                 email,
             }
             // localStorage.setItem(myobj.email, JSON.stringify(myobj))
-            axios.post("https://crudcrud.com/api/a9465d8403d64325b9c7bcc30cd88158/editanddelete",myobj)
+            axios.post("https://crudcrud.com/api/4fef4ed7a7a64203b06596d36247213c",myobj)
             // whenever you do a networkcall.axios makes a promise to you.either am going to be sucessful store the data over there or am going to fail.
             .then((response)=>{
                 showUserOnScreen(response.data)
@@ -52,7 +52,7 @@
             })
             // showUserOnScreen(myobj)
 
-            axios.get("https://crudcrud.com/api/a9465d8403d64325b9c7bcc30cd88158/editanddelete")
+            axios.get("https://crudcrud.com/api/4fef4ed7a7a64203b06596d36247213c/editanddelete")
          .then((response)=>{
             console.log(response)
 
